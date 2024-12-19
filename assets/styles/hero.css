@@ -1,0 +1,67 @@
+.hero {
+    background-color: #444; 
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-title h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-manga {
+    background-color: #555; 
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+
+    transition: transform 0.3s;
+}
+
+.hero-manga:hover{
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+.hero-manga-cape {
+    background-color: #777; 
+    height: 250px; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+.hero-manga-title {
+    font-size: 1.1em;
+    text-overflow: ellipsis;
+    color: #fff;
+    white-space: nowrap;
+    overflow-x: hidden;
+
+}
+.hero-manga-title:hover{
+    color: #ff6347;
+}
+.search{
+    width: 50%;
+    height: 3rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.search:focus{
+    border: 3px solid #ff6347;
+    outline: #ff6347;
+}

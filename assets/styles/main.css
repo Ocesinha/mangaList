@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Joti One", serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos da navegação */
+.nav-top {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-ul li {
+    margin-left: 20px;
+}
+
+.nav-ul a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-ul a:hover {
+    color: #ff6347; 
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .nav-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-ul li {
+        margin: 10px 0;
+    }
+
+    .hero-title h1 {
+        font-size: 2em;
+    }
+
+    .hero-manga {
+        width: 120px; 
+    }
+}
